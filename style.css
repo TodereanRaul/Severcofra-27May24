@@ -1,0 +1,207 @@
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  background-color: #132e40;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: bolder;
+}
+
+/* Navbar Logo */
+.logo-img {
+  width: 50px;
+  height: 50px;
+  margin: 5px 10px;
+  border-radius: 12px;
+}
+
+.header a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+.header a:hover {
+  background-color: #1d90b9;
+}
+
+@media all and (max-width: 800px) {
+  .header {
+    justify-content: space-around;
+  }
+}
+
+h1,
+h3 {
+  color: #132e40;
+}
+
+.intro {
+  letter-spacing: 5px;
+}
+
+h2 {
+  color: #1d90b9;
+}
+
+/* 'LE SAVOIR FAIRE' */
+.savoir {
+  color: #1d90b9;
+  font-weight: 400;
+}
+
+/* Icons next to the text */
+.small-images {
+  margin-right: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+/* SHOW MORE 'Nos Services' */
+#show-more {
+  width: 100%;
+  display: none;
+}
+
+#services-pro {
+  padding: 1em;
+  width: 100%;
+  display: none;
+  align-items: center;
+  padding: 0 auto;
+}
+
+.services {
+  max-width: 12ch;
+}
+
+/* SHOW MORE 'Button' */
+.button1 {
+  display: flex;
+  border-radius: 24px;
+  width: auto;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px,
+    rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+  color: #1d90b9;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+.button1:hover {
+  background-color: #1d90b9;
+  color: #fff;
+}
+
+.button2 {
+  display: flex;
+  border-radius: 24px;
+  width: auto;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px,
+    rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+  color: #1d90b9;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+.button2:hover {
+  background-color: #1d90b9;
+  color: #fff;
+}
+
+.btn-img {
+  padding-left: 10px;
+}
+
+.btn-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*CAROUSEL*/
+#myCarousel {
+  color: white;
+}
+
+.carousel-item {
+  height: 40rem;
+  background-color: #000;
+  color: white;
+  position: relative;
+}
+
+.carousel-container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.carousel-container > h2 {
+  color: white;
+}
+
+.overlay-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+/*ILS NOUS FONT CONFIANCE*/
+#brands {
+  text-align: center;
+}
+
+/*Footer Section */
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.programmer {
+  background-color: #132e40;
+}
+
+.footer-h2 {
+  color: white;
+}
+
+.contact-text {
+  margin: 0;
+  padding: 0;
+}
+
+.contact-info {
+  text-align: right;
+  font-weight: bolder;
+}
+
+.footer-link:link {
+  color: #1d90b9;
+}
+.footer-link:hover {
+  color: white;
+}
